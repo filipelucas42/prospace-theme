@@ -18,7 +18,7 @@
             color: var(--color)
         }
     </style>
-    <title>ProSpace - {{.Title}}</title>
+    <title>{{.Site.Param "footer.company"}} - {{.Title}}</title>
 </head>
 <body style="position: relative;">
     {{partial "header" . }}

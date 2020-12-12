@@ -14,6 +14,7 @@
         </div>
     </div>
 </div>
+{{if .Site.Param "partners"}}
 <div class="container-fluid pt-2">
     <h2 style="text-align: center;">Parceiros</h2>
     <hr>
@@ -22,4 +23,26 @@
         <img src="/images/partners/host.png" alt="" style="margin:10px;">
     </div>
 </div>
+{{end}}
+{{if .Site.Param "facility-managment"}}
+<div class="container-fluid" style="margin-top:30px;background-color:rgb(236, 240, 241);">
+    <div class="container pb-1 facility-managment-container">
+        <h2 style="text-align: center;background-color:rgb(236, 240, 241);">FACILITY MANAGMENT</h2>
+        <hr>
+        <div class="facility-managment mt-2">
+            <div>
+                <img src="/images/facility-managment.jpg" alt="" style="width:100%;">
+        
+            </div>
+            {{$section := .Site.GetPage "contacto"}}
+
+            <div class="pb-2">
+                <p>{{.Content}}</p>
+                <a href="{{$section.Permalink}}" class="btn">Contacte-nos</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{{end}}
 {{end}}

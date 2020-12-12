@@ -7,6 +7,12 @@
     font-size: 16px;
     cursor: pointer;
     width: fit-content;
+    border: 2px solid #5a6369;
+
+    &:hover {
+        color:white;
+        background-color: #5a6369;
+    }
 }
 
 .btn-primary {

@@ -98,8 +98,27 @@
             object-fit: cover;
         }
     }
+
+    .facility-managment {
+        display:flex;
+        flex-direction: column;
+    }
+}
+.facility-managment {
+    display:flex;
+    p {
+        margin-bottom:1rem;
+    }
+    background-color:rgb(236, 240, 241);
+    * {
+        background-color:rgb(236, 240, 241);
+    }
 }
 
+.facility-managment-container {
+    background-color:rgb(236, 240, 241);
+
+}
 @media screen and (min-width: 996.1px){
     .about {
         display: grid;
@@ -115,5 +134,12 @@
 
     .service-text {
         width:60%;
+    }
+
+    .facility-managment {
+        display:flex;
+        :first-child{
+            margin-right: 1rem;
+        }
     }
 }

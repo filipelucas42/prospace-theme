@@ -8,12 +8,18 @@ theme = "prospace"
 color = "#5da87e"
 [markup.goldmark.renderer]
 unsafe= true
+
 [params]
+color = "#5da87e"
+#color = "black"
+partners = false
+facility-managment = true
 [params.homepage]
 hero = "Prospace FM"
 hero-title = "as suas infraestruturas"
 hero-subtitle = "NOSSA RESPONSABILIDADE"
 [params.footer]
+company = "PROSAPCE FM"
 prospace = "A PROSPACE marca presença no mercado português e africano, privilegiando os países de expressão oficial portuguesa, países mais próximos e com uma cultura partilhada, com necessidades particulares e desafios concretos."
 member = [["➡️ APMI", "https://www.apmi.pt"]]
 presence = ["⭐ Portugal", "⭐ Angola", "⭐ Monçambique", "⭐ São Tomé e Príncipe"]
