@@ -1,9 +1,11 @@
 <nav class="nav mb-2">
     <div class="nav-bar-brand">
-        <a href="/"><img class="brand" 
+        <a href="/index.html"><img class="brand" 
             {{if eq .Page.Section "servicos"}}
             {{$logo := .Page.Resources.GetMatch "logo*"}}
-                src="{{$logo}}"
+                {{if $logo}}
+                src="{{$logo.Permalink}}"
+                {{end}}
             {{else}}          
             src="/images/logo.png"
             {{end}}
