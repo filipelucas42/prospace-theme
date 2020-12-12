@@ -9,6 +9,10 @@ color = "#5da87e"
 [markup.goldmark.renderer]
 unsafe= true
 [params]
+[params.homepage]
+hero = "Prospace FM"
+hero-title = "as suas infraestruturas"
+hero-subtitle = "NOSSA RESPONSABILIDADE"
 [params.footer]
 prospace = "A PROSPACE marca presença no mercado português e africano, privilegiando os países de expressão oficial portuguesa, países mais próximos e com uma cultura partilhada, com necessidades particulares e desafios concretos."
 member = [["➡️ APMI", "https://www.apmi.pt"]]
